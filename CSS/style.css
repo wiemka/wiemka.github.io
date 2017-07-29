@@ -9,3 +9,21 @@ input[type=text]:enabled{
     background: #264a64;
     border: 0px;
 }
+input[type=email]:enabled{
+    background: #264a64;
+    border: 0px;
+}
+input[type=tel]:enabled{
+    background: #264a64;
+    border: 0px;
+}
+
+select[name=miasto]:enabled{
+    background: #264a64;
+    border: 0px;
+    color: white;
+}
+textarea[name=message]:enabled{
+    background: #264a64;
+    border: 0px;
+}
