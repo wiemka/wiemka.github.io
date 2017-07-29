@@ -1,29 +1,18 @@
-form{
+form {
     background-color: #213b50;
     color: #fff;
     width: 600px;
     padding: 20px;
 }
 
-input[type=text]:enabled{
-    background: #264a64;
-    border: 0px;
-}
-input[type=email]:enabled{
-    background: #264a64;
-    border: 0px;
-}
-input[type=tel]:enabled{
-    background: #264a64;
-    border: 0px;
-}
-
-select[name=miasto]:enabled{
-    background: #264a64;
-    border: 0px;
-    color: white;
-}
-textarea[name=message]:enabled{
-    background: #264a64;
-    border: 0px;
+form select,
+form input[type="text"],
+form input[type=tel],
+form input[type=email],
+form textarea {
+    width: 300px;
+    background-color: #264a64;
+    color: #fff;
+    border: #264a64 1px solid;
+    height: 25px;
 }
