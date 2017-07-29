@@ -37,3 +37,7 @@ form input[type="submit"] {
 form input[type:"submit"]:hover {
     background-color: #46e881;
 }
+
+.checkbox {
+    width: 90vw;
+}
