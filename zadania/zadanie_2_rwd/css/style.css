@@ -1,0 +1,36 @@
+html{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+/*    padding: 0;*/
+}
+
+.zdjecie_1{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.zdjecie_2{
+    display: none;
+    height: 100vh;
+}
+
+#tekst{
+    position: absolute;
+    color: white;
+    text-transform: uppercase;
+    top: 50%;
+    vertical-align: middle;
+/*    left: 0;*/
+/*    transform: translateY(50);*/
+    font-size: 10px;
+    font-weight: bold;
+
+}
+
+span{
+    font-size: 15px;
+    font-weight: bolder;
+}
